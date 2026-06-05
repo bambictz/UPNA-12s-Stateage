@@ -152,7 +152,7 @@
   .main-tab.active[data-main="black"] { border-color: #ffffff; color: #ffffff; background: rgba(255,255,255,0.07); }
   .main-tab.active[data-main="white"] { border-color: var(--white-c); color: var(--white-c); background: rgba(170,170,170,0.07); }
   .main-tab.active[data-main="watch"] { border-color: var(--upna-green); color: var(--upna-green); background: rgba(126,211,33,0.07); }
-  .main-tab.active[data-main="map"]   { border-color: var(--upna-green); color: var(--upna-green); background: rgba(126,211,33,0.07); }
+  .main-tab.active[data-main=""]   { border-color: var(--upna-green); color: var(--upna-green); background: rgba(126,211,33,0.07); }
 
   /* SUB TABS (schedule/info/pool/ladder) */
   .sub-tabs {
@@ -498,7 +498,7 @@
 
 <div class="sub-tabs" id="subTabsBar">
   <button class="sub-tab active" data-sub-target="schedule" onclick="showSub('schedule',this)">📅 Schedule</button>
-  <button class="main-tab" data-main="map" onclick="showSub('map',this)">🗺️ Venue Map</button>
+  <button class="sub-tab" data-main="map" onclick="showSub('map',this)">🗺️ Venue Map</button>
   <button class="sub-tab" data-sub-target="info" onclick="showSub('info',this)">ℹ️ Competition Info</button>
   <button class="sub-tab" data-sub-target="pool" onclick="showSub('pool',this)">🏷️ Pool Draw</button>
   <button class="sub-tab" data-sub-target="ladder" onclick="showSub('ladder',this)">📊 Live Ladder</button>
